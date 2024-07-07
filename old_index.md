@@ -12,8 +12,8 @@ The configuration of these can be changed by overwriting it style.css.
 
 <ul>
     {% for post in site.posts %}
-        <li>
-            <a href="{{ site.post }}">{{post.title}}</a>
-        </li>
+    <li>
+        <a href="{{ site.post }}">{{post.title}}</a>
+    </li>
     {% endfor %}
 </ul>
