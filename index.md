@@ -9,3 +9,11 @@ Alterations to the page layout can be made by changing default.html, and the sty
 
 Most markdown tags are turned into standard html elements.
 The configuration of these can be changed by overwriting it style.css.
+
+<ul>
+    {% for post in site.posts %}
+        <li>
+            <a href="{{ site.post }}">{{post.title}}</a>
+        </li>
+    {% endfor %}
+</ul>
