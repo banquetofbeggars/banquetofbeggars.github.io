@@ -1,0 +1,1 @@
+This is another markdown file included in the _posts directory.

@@ -2,3 +2,4 @@ markdown: GFM
 title: Code
 subtitle: Extra stuff.
 description: the description set in the website.
+theme: jekyll-theme-minimal
