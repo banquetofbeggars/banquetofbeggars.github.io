@@ -6,7 +6,7 @@ layout: default
 <ul>
     {% for post in site.posts limit:5 %}
     <li>
-        <a href="{{ site.post }}">{{post.title}}</a>
+        <a href="{{ post.url }}">{{post.title}}</a>
     </li>
     {% endfor %}
 </ul>
@@ -14,7 +14,7 @@ layout: default
 <div>
     <ul>
         <li>
-            <a href="{{ site.url}}/three-example.html">
+            <a href="{{ site.url }}/three_example.html">
                 threejs example
             </a>
         </li>
